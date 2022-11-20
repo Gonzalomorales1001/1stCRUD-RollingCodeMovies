@@ -1,0 +1,46 @@
+:root{
+    --rolling-red: #a00b0a;
+}
+
+nav{
+    background-color: var(--rolling-red);
+}
+
+.grid-container{
+    margin:20px auto;
+    width: 75%;
+    display: grid;
+    grid-gap: 15px;
+}
+
+.grid-item{
+    padding:15px;
+    border:2px solid var(--rolling-red);
+    color: var(--rolling-red);
+    background-color: transparent;
+}
+
+.grid-item:hover{
+    transition: 0.5s;
+    background-color: var(--rolling-red);
+    color:whitesmoke;
+}
+
+.grid-item[disabled]{
+    filter: opacity(50%);
+}
+
+.grid-item:nth-child(5){
+    padding:15px;
+}
+
+@media (min-width:768px) {
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .grid-item:nth-child(5){
+        grid-column:1/3
+    }
+}
