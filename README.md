@@ -5,7 +5,7 @@
 Este proyecto aún no se encuentra terminado ⚠
 
 - El botón para mostrar películas esta deshabilitado ***temporalmente.***
-> Se puede ejecutar su función **pero elimina el documento.**
+> Se puede ejecutar su función pero **elimina el documento.**
 
 ## Comandos para la consola
 
