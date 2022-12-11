@@ -2,24 +2,23 @@
 1er CRUD creado solo con arreglos
 ### Estado del proyecto
 
-Este proyecto aún no se encuentra terminado ⚠
+Este proyecto es solo una prueba CRUD
 
-- El botón para mostrar películas esta deshabilitado ***temporalmente.***
-> Se puede ejecutar su función pero **elimina el documento.**
+- El botón de Mostrar/Actualizar listado ya se encuentra disponible
 
 ## Comandos para la consola
 
 - Agregar una película
 > addMovies()
 
-- Eliminar una película
-> deleteMovie()
-
-- Mostrar listado de películas (⚠)
-> showMovies()
-
 - Modificar Películas
 > changeMovie()
 
+- Eliminar una película
+> deleteMovie()
+
 - Filtrar películas
 > filterMovies()
+
+- Mostrar/Actualizar listado de películas
+> showMovies()
