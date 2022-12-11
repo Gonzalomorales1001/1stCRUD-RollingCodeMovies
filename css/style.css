@@ -6,6 +6,29 @@ nav{
     background-color: var(--rolling-red);
 }
 
+
+
+#list{
+    margin: 20px auto;
+    width: 75%;
+    height: 300px;
+    border:2px solid var(--rolling-red);
+    color: var(--rolling-red);
+    font-weight: 700;
+    font-size: larger;
+    overflow-y: scroll;
+    list-style:none;
+    text-align: center;
+}
+
+#list::-webkit-scrollbar{
+    width: 7px;
+}
+
+#list::-webkit-scrollbar-thumb{
+    background: rgba(160, 11, 10, 0.5)
+}
+
 .grid-container{
     margin:20px auto;
     width: 75%;

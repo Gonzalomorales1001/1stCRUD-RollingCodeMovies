@@ -17,13 +17,16 @@ const addMovie=(movie=prompt('Ingresa la película que quieres agregar'))=>{
 
 //show movies list
 const showMovies=()=>{
-    document.body.innerHTML=""
-    document.write('<h1>Películas en la lista</h1>')
+    let movieList=document.querySelector('#list')
     let orderMovies=Movies.slice(0)
     orderMovies=orderMovies.sort()
-    document.write("<ul>")
-    orderMovies.forEach((movie)=>document.write(`<li>${movie}</li>`))
-    document.write('</ul>')
+
+    movieList.innerHTML=""
+    orderMovies.forEach((Movie)=>{
+        let list=document.createElement('li')
+        list.innerHTML=Movie
+        movieList.appendChild(list)
+    })
 }
 
 //show movies that contains the specified term
